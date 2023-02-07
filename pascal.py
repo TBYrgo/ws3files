@@ -31,6 +31,7 @@ def _pascal_helper(current: int, max: int, row: list[int], max_value_size: int) 
     print()
 
     if current < max:
+	"Pascal's triangle"
         sums: list[int] = [a + b for a, b in zip(row, row[1:])]
         new_row: list[int] = [1, *sums, 1]
         _pascal_helper(current + 1, max, new_row, max_value_size)
