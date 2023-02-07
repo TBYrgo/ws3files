@@ -1,8 +1,12 @@
 from math import sqrt, log10, floor, pi
 from sys import argv
 
+<<<<<<< HEAD
 #lägger till ett felmeddelande
 
+=======
+#Lägger till ett till felmeddelande
+>>>>>>> error_outside_limits
 
 def pascal_triangle(n: int) -> None:
     """Prints a pascal triangle with n rows."""
